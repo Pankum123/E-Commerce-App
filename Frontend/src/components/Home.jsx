@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../public/logo.webp";
+import logo from "../../public/logo.jpeg";
 import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -102,8 +102,8 @@ function Home() {
               alt=""
               className="w-7 h-7 md:w-10 md:h-10 rounded-full"
             />
-            <h1 className="md:text-2xl text-orange-500 font-bold">
-              CourseHaven
+            <h1 className="md:text-2xl text-blue-500 font-bold">
+              EduNext
             </h1>
           </div>
           <div className="space-x-4">
@@ -135,8 +135,8 @@ function Home() {
 
         {/* Main section */}
         <section className="text-center py-20">
-          <h1 className="text-4xl font-semibold text-orange-500">
-            CourseHaven
+          <h1 className="text-4xl font-semibold text-blue-500">
+            EduNext
           </h1>
 
           <br />
@@ -151,7 +151,7 @@ function Home() {
               Explore courses
             </Link>
             <Link
-              to={"https://www.youtube.com/learncodingofficial"}
+              to={"https://www.youtube.com"}
               className="bg-white text-black  p-2 md:py-3 md:px-6 rounded font-semibold hover:bg-green-500 duration-300 hover:text-white"
             >
               Courses videos
@@ -191,8 +191,8 @@ function Home() {
             <div className="flex flex-col items-center md:items-start">
               <div className="flex items-center space-x-2">
                 <img src={logo} alt="" className="w-10 h-10 rounded-full" />
-                <h1 className="text-2xl text-orange-500 font-bold">
-                  CourseHaven
+                <h1 className="text-2xl text-blue-500 font-bold">
+                  EduNext
                 </h1>
               </div>
               <div className="mt-3 ml-2 md:ml-8">
@@ -215,13 +215,13 @@ function Home() {
               <h3 className="text-lg font-semibold md:mb-4">connects</h3>
               <ul className=" space-y-2 text-gray-400">
                 <li className="hover:text-white cursor-pointer duration-300">
-                  youtube- learn coding
+                  youtube- learn
                 </li>
                 <li className="hover:text-white cursor-pointer duration-300">
-                  telegram- learn coding
+                  telegram- learn
                 </li>
                 <li className="hover:text-white cursor-pointer duration-300">
-                  Github- learn coding
+                  Github- learn
                 </li>
               </ul>
             </div>

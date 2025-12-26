@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 
-@layer base {
+/* @layer base {
     h1,
     h2,
     h3,
@@ -20,7 +20,7 @@
     span {
       @apply font-roboto;
     }
-  }
+  } */
   
   @layer utilities {
     .font-poppins {
