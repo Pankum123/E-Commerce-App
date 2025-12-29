@@ -187,7 +187,7 @@ function Home() {
         <hr />
         {/* Footer */}
         <footer className="my-12">
-          <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="container  mx-20 grid grid-cols-1 md:grid-cols-3">
             <div className="flex flex-col items-center md:items-start">
               <div className="flex items-center space-x-2">
                 <img src={logo} alt="" className="w-10 h-10 rounded-full" />
