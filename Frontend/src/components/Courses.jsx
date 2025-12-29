@@ -178,10 +178,10 @@ function Courses() {
                   </p>
                   <div className="flex justify-between items-center mb-4">
                     <span className="font-bold text-xl">
-                      ₹{course.price}{" "}
-                      <span className="text-gray-500 line-through">5999</span>
+                      ₹{Math.round(course.price * 0.9)}{" "}
+                      <span className="text-gray-500 line-through">{course.price}</span>
                     </span>
-                    <span className="text-green-600">20% off</span>
+                    <span className="text-green-600">10% off</span>
                   </div>
 
                   {/* Buy page */}
