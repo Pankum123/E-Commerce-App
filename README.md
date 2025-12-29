@@ -1,4 +1,5 @@
-EduNext
+E-Commerce-App : 
+                      EduNext
 
 EduNext is a full-stack Course Selling Application built using the MERN stack (MongoDB, Express, React, Node.js). It provides a secure, responsive, and user-friendly platform for users to browse, purchase, and access online courses.
 
@@ -37,9 +38,9 @@ Deployment: Render
 
 EduNext was developed to provide a simple yet powerful online course selling platform. It enables creators to sell courses securely while allowing users to purchase and learn seamlessly. The app is ideal for personal portfolios, EdTech platforms, and full-stack development learning.
 
-🌐 Live Demo: https://blog-app-pankaj.onrender.com
+🌐 Live Demo: https://e-commerce-app-kw60.onrender.com/
 
-✨ Video: https://drive.google.com/file/d/11_jmV6_GF7MGuN7QF1WrnARTmA9BH3Qr/view?usp=sharing
+✨ Video: https://drive.google.com/file/d/1_VDkk5gyB66Dj4-tKuxqQR7ZcaWApxEv/view?usp=sharing
 
 👨‍💻 Author
 
