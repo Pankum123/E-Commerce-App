@@ -90,11 +90,13 @@ function OurCourses() {
             {/* Course Price */}
             <div className="flex justify-between mt-4 text-gray-800 font-bold">
               <div>
-                {" "}
-                ₹{course.price}{" "}
-                <span className="line-through text-gray-500">₹300</span>
+                <span className="line-through text-gray-500">
+                  ₹{course.price}
+                </span>{" "}
+                <span>₹{Math.round(course.price * 0.9)}</span>
               </div>
-              <div className="text-green-600 text-sm mt-2">10 % off</div>
+
+              <div className="text-green-600 text-sm mt-2">10% OFF</div>
             </div>
 
             <div className="flex justify-between">

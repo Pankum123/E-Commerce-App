@@ -172,7 +172,7 @@ function Purchases() {
                         : purchase.description}
                     </p>
                     <span className="text-green-700 font-semibold text-sm">
-                      ${purchase.price} only
+                      ${Math.round(purchase.price * 0.9)} only
                     </span>
                   </div>
                 </div>
