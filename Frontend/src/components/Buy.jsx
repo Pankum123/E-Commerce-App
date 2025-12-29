@@ -147,7 +147,7 @@ function Buy() {
           </div>
         </div>
       ) : (
-        <div className="flex flex-col sm:flex-row my-40 container mx-auto">
+        <div className="flex flex-col sm:flex-row my-40 container mx-10">
           <div className="w-full md:w-1/2">
             <h1 className="text-xl font-semibold underline">Order Details</h1>
             <div className="flex items-center text-center space-x-2 mt-4">

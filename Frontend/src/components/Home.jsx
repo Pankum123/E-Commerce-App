@@ -162,7 +162,7 @@ function Home() {
           <Slider className="" {...settings}>
             {courses.map((course) => (
               <div key={course._id} className="p-4">
-                <div className="relative flex-shrink-0 w-92 transition-transform duration-300 transform hover:scale-105">
+                <div className="relative flex-shrink-0 w-full transition-transform duration-300 transform hover:scale-105">
                   <div className="bg-gray-900 rounded-lg overflow-hidden">
                     <img
                       className="h-32 w-full object-contain"
@@ -173,7 +173,7 @@ function Home() {
                       <h2 className="text-xl font-bold text-white">
                         {course.title}
                       </h2>
-                      <Link to={`/buy/${course._id}`} className="mt-8 bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-blue-500 duration-300">
+                      <Link to={`/buy/${course._id}`} className="mt-6 bg-orange-500 text-white py-1 px-4 rounded-full hover:bg-blue-500 duration-300">
                         Enroll Now
                       </Link>
                     </div>
@@ -187,7 +187,7 @@ function Home() {
         <hr />
         {/* Footer */}
         <footer className="my-12">
-          <div className="container  mx-20 grid grid-cols-1 md:grid-cols-3">
+          <div className=" grid grid-cols-1 md:grid-cols-3">
             <div className="flex flex-col items-center md:items-start">
               <div className="flex items-center space-x-2">
                 <img src={logo} alt="" className="w-10 h-10 rounded-full" />
